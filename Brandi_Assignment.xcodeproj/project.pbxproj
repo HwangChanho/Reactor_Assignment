@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		1265AB0927E443AB00E933CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB0827E443AB00E933CA /* AppDelegate.swift */; };
 		1265AB0B27E443AB00E933CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB0A27E443AB00E933CA /* SceneDelegate.swift */; };
-		1265AB0D27E443AB00E933CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB0C27E443AB00E933CA /* ViewController.swift */; };
-		1265AB1027E443AB00E933CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1265AB0E27E443AB00E933CA /* Main.storyboard */; };
+		1265AB0D27E443AB00E933CA /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB0C27E443AB00E933CA /* ImageSearchViewController.swift */; };
 		1265AB1227E443AC00E933CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1265AB1127E443AC00E933CA /* Assets.xcassets */; };
 		1265AB1527E443AC00E933CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1265AB1327E443AC00E933CA /* LaunchScreen.storyboard */; };
 		1265AB2027E443AC00E933CA /* Brandi_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB1F27E443AC00E933CA /* Brandi_AssignmentTests.swift */; };
 		1265AB2A27E443AC00E933CA /* Brandi_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB2927E443AC00E933CA /* Brandi_AssignmentUITests.swift */; };
 		1265AB2C27E443AC00E933CA /* Brandi_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB2B27E443AC00E933CA /* Brandi_AssignmentUITestsLaunchTests.swift */; };
+		1265AB3A27E443EB00E933CA /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB3927E443EB00E933CA /* ReactorKit */; };
+		1265AB3D27E443FA00E933CA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB3C27E443FA00E933CA /* SnapKit */; };
+		1265AB4027E4441800E933CA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB3F27E4441800E933CA /* RxCocoa */; };
+		1265AB4227E4441800E933CA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB4127E4441800E933CA /* RxSwift */; };
+		1265AB4927E4670500E933CA /* ImageVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB4827E4670500E933CA /* ImageVIewCell.swift */; };
+		1265AB4C27E471C400E933CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB4B27E471C400E933CA /* Constants.swift */; };
+		1265AB5027E4726700E933CA /* KakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB4F27E4726700E933CA /* KakaoAPI.swift */; };
+		1265AB5227E4727500E933CA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB5127E4727500E933CA /* EndPoint.swift */; };
+		1265AB5527E4742C00E933CA /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB5427E4742C00E933CA /* RxAlamofire */; };
+		1265AB5827E4780600E933CA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1265AB5727E4780600E933CA /* Alamofire */; };
+		1265AB5A27E47E4F00E933CA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB5927E47E4F00E933CA /* MainView.swift */; };
+		1265AB5C27E47F1800E933CA /* SearchImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265AB5B27E47F1800E933CA /* SearchImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,7 @@
 		1265AB0527E443AB00E933CA /* Brandi_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brandi_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1265AB0827E443AB00E933CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1265AB0A27E443AB00E933CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1265AB0C27E443AB00E933CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1265AB0F27E443AB00E933CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1265AB0C27E443AB00E933CA /* ImageSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
 		1265AB1127E443AC00E933CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1265AB1427E443AC00E933CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1265AB1627E443AC00E933CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		1265AB2527E443AC00E933CA /* Brandi_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brandi_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1265AB2927E443AC00E933CA /* Brandi_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandi_AssignmentUITests.swift; sourceTree = "<group>"; };
 		1265AB2B27E443AC00E933CA /* Brandi_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandi_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1265AB4827E4670500E933CA /* ImageVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVIewCell.swift; sourceTree = "<group>"; };
+		1265AB4B27E471C400E933CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1265AB4F27E4726700E933CA /* KakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPI.swift; sourceTree = "<group>"; };
+		1265AB5127E4727500E933CA /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		1265AB5927E47E4F00E933CA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1265AB5B27E47F1800E933CA /* SearchImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1265AB4027E4441800E933CA /* RxCocoa in Frameworks */,
+				1265AB3A27E443EB00E933CA /* ReactorKit in Frameworks */,
+				1265AB4227E4441800E933CA /* RxSwift in Frameworks */,
+				1265AB5827E4780600E933CA /* Alamofire in Frameworks */,
+				1265AB5527E4742C00E933CA /* RxAlamofire in Frameworks */,
+				1265AB3D27E443FA00E933CA /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +121,14 @@
 		1265AB0727E443AB00E933CA /* Brandi_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				1265AB5D27E47F3E00E933CA /* ViewController */,
+				1265AB4D27E4724B00E933CA /* Networks */,
+				1265AB4A27E471BC00E933CA /* Tools */,
+				1265AB4527E4657E00E933CA /* ViewModel */,
+				1265AB4427E4657800E933CA /* Model */,
+				1265AB4327E4657200E933CA /* View */,
 				1265AB0827E443AB00E933CA /* AppDelegate.swift */,
 				1265AB0A27E443AB00E933CA /* SceneDelegate.swift */,
-				1265AB0C27E443AB00E933CA /* ViewController.swift */,
-				1265AB0E27E443AB00E933CA /* Main.storyboard */,
 				1265AB1127E443AC00E933CA /* Assets.xcassets */,
 				1265AB1327E443AC00E933CA /* LaunchScreen.storyboard */,
 				1265AB1627E443AC00E933CA /* Info.plist */,
@@ -127,6 +153,71 @@
 			path = Brandi_AssignmentUITests;
 			sourceTree = "<group>";
 		};
+		1265AB4327E4657200E933CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB4727E4659C00E933CA /* Cells */,
+				1265AB5927E47E4F00E933CA /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1265AB4427E4657800E933CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1265AB4527E4657E00E933CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB5B27E47F1800E933CA /* SearchImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1265AB4727E4659C00E933CA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB4827E4670500E933CA /* ImageVIewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1265AB4A27E471BC00E933CA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB4B27E471C400E933CA /* Constants.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1265AB4D27E4724B00E933CA /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB4E27E4725900E933CA /* API */,
+				1265AB5127E4727500E933CA /* EndPoint.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		1265AB4E27E4725900E933CA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB4F27E4726700E933CA /* KakaoAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1265AB5D27E47F3E00E933CA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1265AB0C27E443AB00E933CA /* ImageSearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +234,14 @@
 			dependencies = (
 			);
 			name = Brandi_Assignment;
+			packageProductDependencies = (
+				1265AB3927E443EB00E933CA /* ReactorKit */,
+				1265AB3C27E443FA00E933CA /* SnapKit */,
+				1265AB3F27E4441800E933CA /* RxCocoa */,
+				1265AB4127E4441800E933CA /* RxSwift */,
+				1265AB5427E4742C00E933CA /* RxAlamofire */,
+				1265AB5727E4780600E933CA /* Alamofire */,
+			);
 			productName = Brandi_Assignment;
 			productReference = 1265AB0527E443AB00E933CA /* Brandi_Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +314,13 @@
 				Base,
 			);
 			mainGroup = 1265AAFC27E443AB00E933CA;
+			packageReferences = (
+				1265AB3827E443EB00E933CA /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				1265AB3B27E443FA00E933CA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1265AB3E27E4441800E933CA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				1265AB5327E4742C00E933CA /* XCRemoteSwiftPackageReference "RxAlamofire" */,
+				1265AB5627E4780600E933CA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1265AB0627E443AB00E933CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +339,6 @@
 			files = (
 				1265AB1527E443AC00E933CA /* LaunchScreen.storyboard in Resources */,
 				1265AB1227E443AC00E933CA /* Assets.xcassets in Resources */,
-				1265AB1027E443AB00E933CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +363,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1265AB0D27E443AB00E933CA /* ViewController.swift in Sources */,
+				1265AB5027E4726700E933CA /* KakaoAPI.swift in Sources */,
+				1265AB5A27E47E4F00E933CA /* MainView.swift in Sources */,
+				1265AB4C27E471C400E933CA /* Constants.swift in Sources */,
+				1265AB5C27E47F1800E933CA /* SearchImageViewModel.swift in Sources */,
+				1265AB4927E4670500E933CA /* ImageVIewCell.swift in Sources */,
+				1265AB0D27E443AB00E933CA /* ImageSearchViewController.swift in Sources */,
 				1265AB0927E443AB00E933CA /* AppDelegate.swift in Sources */,
+				1265AB5227E4727500E933CA /* EndPoint.swift in Sources */,
 				1265AB0B27E443AB00E933CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +408,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1265AB0E27E443AB00E933CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1265AB0F27E443AB00E933CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1265AB1327E443AC00E933CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +547,7 @@
 				INFOPLIST_FILE = Brandi_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,7 +575,7 @@
 				INFOPLIST_FILE = Brandi_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +587,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +707,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1265AB3827E443EB00E933CA /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		1265AB3B27E443FA00E933CA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		1265AB3E27E4441800E933CA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		1265AB5327E4742C00E933CA /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1265AB5627E4780600E933CA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1265AB3927E443EB00E933CA /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB3827E443EB00E933CA /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		1265AB3C27E443FA00E933CA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB3B27E443FA00E933CA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1265AB3F27E4441800E933CA /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB3E27E4441800E933CA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		1265AB4127E4441800E933CA /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB3E27E4441800E933CA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		1265AB5427E4742C00E933CA /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB5327E4742C00E933CA /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
+		1265AB5727E4780600E933CA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265AB5627E4780600E933CA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1265AAFD27E443AB00E933CA /* Project object */;
 }
